@@ -1,3 +1,4 @@
+
 # Environment files
 .env
 
@@ -11,3 +12,41 @@ venv/
 
 # Temporary files
 *.log
+
+# Environment and configuration files
+.env
+.env.*
+!.env.example
+
+# SQL Server backup and database files
+*.bak
+*.trn
+*.mdf
+*.ldf
+*.ndf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Python files (if used for data preparation)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary exports
+*.csv
+*.xlsx
+*.xls
+ 8d0c81e728a37ffaec883463d18cd97c9e3950e8
